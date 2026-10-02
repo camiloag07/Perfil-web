@@ -1,17 +1,7 @@
 /* ============================================================
    WEB PROFILE TEMPLATE - SCRIPT
    UniEspinal · Técnico Profesional en Programación Web
-
-   THIS IS THE FILE YOU WILL WORK ON THE MOST.
-
-   Below there are two dictionaries: ES and EN.
-   They have exactly the same keys, but different texts.
-
-   IMPORTANT: the English version is NOT a translation of the
-   Spanish version. A professional profile in English follows
-   different rules. Read NOTES.md before you write it.
    ============================================================ */
-
 
 /* ------------------------------------------------------------
    1. SPANISH TEXTS
@@ -24,23 +14,23 @@ const ES = {
   "nav.portfolio": "PROYECTOS",
   "nav.contact":   "CONTACTO",
 
-  "hero.role": "Desarrollador Web · Soporte Técnico",
+  "hero.role": "Estudiante de Programación Web",
 
-  "about.title":          "Sobre Mí",
-  "about.text":           "[Escribe aquí dos o tres frases sobre ti: qué estudias, qué te interesa dentro del desarrollo web y qué estás buscando ahora.]",
-  "about.infoTitle":      "Información",
-  "about.labelLocation":  "Ubicación",
-  "about.valueLocation":  "[Ciudad], Colombia",
-  "about.labelEmail":     "Correo",
+  "about.title":         "Sobre Mí",
+  "about.text":          "Soy estudiante de Ingeniería de Sistemas y actualmente me encuentro cursando el nivel técnico de mi formación. Me interesa el mundo de la tecnología y disfruto aprender cosas nuevas que me permitan seguir desarrollando mis conocimientos y habilidades.\n\nMe considero una persona tranquila, curiosa y con disposición para aprender. Me gusta enfrentar nuevos retos y adquirir experiencia tanto en el ámbito académico como personal. Además de la tecnología, soy un amante del deporte, especialmente del fútbol, una actividad que forma parte importante de mis intereses y mi tiempo libre.\n\nMi objetivo es continuar fortaleciendo mis conocimientos en el área de sistemas y aprovechar cada experiencia como una oportunidad para crecer y prepararme para mi futuro profesional.",
+  "about.infoTitle":     "Información",
+  "about.labelLocation": "Ubicación",
+  "about.valueLocation": "El Espinal, Colombia",
+  "about.labelEmail":    "Correo",
   "about.labelLanguages": "Idiomas",
-  "about.valueLanguages": "Español (nativo) · Inglés ([tu nivel])",
-  "about.labelStatus":    "Disponibilidad",
-  "about.valueStatus":    "Abierto a prácticas",
+  "about.valueLanguages": "Español (nativo) · Inglés (A2)",
+  "about.labelStatus":   "Disponibilidad",
+  "about.valueStatus":   "Abierto a prácticas",
   "about.interestsTitle": "Intereses",
 
   "interest.1": "CÓDIGO",
-  "interest.2": "SOPORTE",
-  "interest.3": "LECTURA",
+  "interest.2": "DEPORTE",
+  "interest.3": "APRENDIZAJE",
   "interest.4": "JUEGOS",
 
   "skills.title":        "Habilidades",
@@ -55,40 +45,35 @@ const ES = {
   "resume.education":  "Formación",
   "resume.experience": "Experiencia",
 
-  "edu.1.title": "Técnico Profesional en Programación Web",
-  "edu.1.text":  "[Una o dos frases sobre lo que estás aprendiendo y qué sabes hacer ahora.]",
-  "edu.2.title": "[Curso o certificación]",
-  "edu.2.text":  "[Qué aprendiste y para qué te sirve.]",
+  "edu.1.title": "Técnico Profesional en Programación Web (En curso)",
+  "edu.1.text":  "Estudiante de programación web apasionado por el desarrollo en Visual Studio Code, con bases en JavaScript, PHP, redes y hardware, enfocado en seguir fortaleciendo sus conocimientos y habilidades técnicas cada día.",
+  "edu.2.title": "Cisco Packet Tracer Course",
+  "edu.2.text":  "Aprendí simulación básica de redes, configuración y resolución de problemas de conectividad.",
 
-  "exp.1.title": "[Rol o tipo de proyecto]",
-  "exp.1.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
-  "exp.2.title": "[Rol o tipo de proyecto]",
-  "exp.2.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
+  "exp.1.title": "Frontend Web Project",
+  "exp.1.text":  "Creé una página web adaptable usando HTML5, CSS3 y JavaScript garantizando compatibilidad.",
+  "exp.2.title": "Database Design Assistant",
+  "exp.2.text":  "Diseñé esquemas relacionales y probé consultas SQL para optimizar la recuperación de datos.",
 
   "portfolio.title": "Proyectos",
-  "project.1.title": "[Nombre del proyecto]",
-  "project.1.text":  "[Tecnologías usadas]",
-  "project.2.title": "[Nombre del proyecto]",
-  "project.2.text":  "[Tecnologías usadas]",
-  "project.3.title": "[Nombre del proyecto]",
-  "project.3.text":  "[Tecnologías usadas]",
+  "project.1.title": "Web Portfolio",
+  "project.1.text":  "HTML5, CSS3, JavaScript",
+  "project.2.title": "Landing Page Template",
+  "project.2.text":  "HTML, Flexbox, CSS",
+  "project.3.title": "Interactive JavaScript App",
+  "project.3.text":  "JavaScript, DOM Manipulation",
 
   "contact.title":         "Contacto",
-  "contact.intro":         "[Una frase invitando a escribirte. Por ejemplo: ¿Tienes un proyecto o una vacante? Escríbeme.]",
+  "contact.intro":         "No dudes en contactarme a través de mis canales profesionales para colaboraciones u oportunidades.",
   "contact.emailLabel":    "Correo",
-  "contact.linkedinValue": "[Tu perfil profesional]",
+  "contact.linkedinValue": "Perfil Profesional",
 
-  "footer.note": "[Tu nombre] · Técnico Profesional en Programación Web · UniEspinal"
+  "footer.note": "Camilo Angulo · Estudiante de Programación Web · UniEspinal"
 };
 
 
 /* ------------------------------------------------------------
    2. ENGLISH TEXTS
-
-   Before writing this section, remember:
-   - Use action verbs: built, configured, fixed, tested, supported.
-   - Do not include age, marital status or a home address.
-   - Do not translate word by word. Rewrite.
    ------------------------------------------------------------ */
 const EN = {
   "nav.home":      "HOME",
@@ -98,24 +83,24 @@ const EN = {
   "nav.portfolio": "PROJECTS",
   "nav.contact":   "CONTACT",
 
-  "hero.role": "Web Developer · Technical Support",
+  "hero.role": "Web Development Student",
 
-  "about.title":          "About Me",
-  "about.text":           "[Write two or three sentences about yourself: what you study, what interests you in web development, and what you are looking for now.]",
-  "about.infoTitle":      "Information",
-  "about.labelLocation":  "Location",
-  "about.valueLocation":  "[City], Colombia",
-  "about.labelEmail":     "Email",
+  "about.title":         "About Me",
+  "about.text":          "I am a Systems Engineering student currently pursuing the technical level of my education. I am passionate about technology and enjoy learning new things to continuously build my knowledge and skills.\n\nI consider myself a calm, curious person eager to learn. I like facing new challenges and gaining experience both academically and personally. Besides technology, I am a sports lover, especially soccer.\n\nMy goal is to continue strengthening my systems knowledge and take advantage of every experience to grow and prepare for my professional future.",
+  "about.infoTitle":     "Information",
+  "about.labelLocation": "Location",
+  "about.valueLocation": "El Espinal, Colombia",
+  "about.labelEmail":    "Email",
   "about.labelLanguages": "Languages",
-  "about.valueLanguages": "Spanish (native) · English ([your level])",
-  "about.labelStatus":    "Availability",
-  "about.valueStatus":    "Open to internships",
+  "about.valueLanguages": "Spanish (native) · English (A2)",
+  "about.labelStatus":   "Availability",
+  "about.valueStatus":   "Open to internships",
   "about.interestsTitle": "Interests",
 
   "interest.1": "CODE",
-  "interest.2": "SUPPORT",
-  "interest.3": "READING",
-  "interest.4": "GAMING",
+  "interest.2": "SPORT",
+  "interest.3": "LEARNING",
+  "interest.4": "GAMES",
 
   "skills.title":        "Skills",
   "skills.technical":    "Technical skills",
@@ -129,36 +114,35 @@ const EN = {
   "resume.education":  "Education",
   "resume.experience": "Experience",
 
-  "edu.1.title": "Professional Technician in Web Programming",
-  "edu.1.text":  "[One or two sentences about what you are learning and what you can do now.]",
-  "edu.2.title": "[Course or certificate]",
-  "edu.2.text":  "[What you learned and how you use it.]",
+  "edu.1.title": "Web Programming Professional Technician (Ongoing)",
+  "edu.1.text":  "Web development student passionate about development in Visual Studio Code, with foundations in JavaScript, PHP, networking, and hardware, focused on continuously strengthening technical knowledge and skills.",
+  "edu.2.title": "Cisco Packet Tracer Course",
+  "edu.2.text":  "I learned basic network simulation, configuration, and connectivity troubleshooting.",
 
-  "exp.1.title": "[Role or type of project]",
-  "exp.1.text":  "[What you did, which tools you used, and what the result was.]",
-  "exp.2.title": "[Role or type of project]",
-  "exp.2.text":  "[What you did, which tools you used, and what the result was.]",
+  "exp.1.title": "Frontend Web Project",
+  "exp.1.text":  "I built a responsive landing page using HTML5, CSS3, and JavaScript ensuring compatibility.",
+  "exp.2.title": "Database Design Assistant",
+  "exp.2.text":  "I designed relational schemas and tested SQL queries to optimize data retrieval processes.",
 
   "portfolio.title": "Projects",
-  "project.1.title": "[Project name]",
-  "project.1.text":  "[Technologies used]",
-  "project.2.title": "[Project name]",
-  "project.2.text":  "[Technologies used]",
-  "project.3.title": "[Project name]",
-  "project.3.text":  "[Technologies used]",
+  "project.1.title": "Web Portfolio",
+  "project.1.text":  "HTML5, CSS3, JavaScript",
+  "project.2.title": "Landing Page Template",
+  "project.2.text":  "HTML, Flexbox, CSS",
+  "project.3.title": "Interactive JavaScript App",
+  "project.3.text":  "JavaScript, DOM Manipulation",
 
   "contact.title":         "Contact",
-  "contact.intro":         "[One sentence inviting people to write to you. Example: Have a project or a vacancy? Send me a message.]",
+  "contact.intro":         "Feel free to reach out to me through my professional channels for collaboration or opportunities.",
   "contact.emailLabel":    "Email",
-  "contact.linkedinValue": "[Your professional profile]",
+  "contact.linkedinValue": "Professional Profile",
 
-  "footer.note": "[Your name] · Professional Technician in Web Programming · UniEspinal"
+  "footer.note": "Camilo Angulo · Web Development Student · UniEspinal"
 };
 
 
 /* ============================================================
    3. LANGUAGE SWITCHER
-   You do not need to change the code below.
    ============================================================ */
 
 const DICCIONARIOS = { es: ES, en: EN };
@@ -172,8 +156,6 @@ function aplicarIdioma(idioma) {
     const clave = elemento.getAttribute("data-i18n");
     if (textos[clave] !== undefined) {
       elemento.textContent = textos[clave];
-    } else {
-      console.warn("Missing translation key:", clave);
     }
   });
 
@@ -218,10 +200,6 @@ function cerrarMenu() {
 
 /* ============================================================
    5. SKILL BARS
-
-   The width comes from the data-percent attribute in index.html.
-   You can add or remove skills freely: this code does not depend
-   on how many there are.
    ============================================================ */
 
 function animarHabilidades() {
