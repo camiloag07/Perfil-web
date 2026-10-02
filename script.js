@@ -56,8 +56,8 @@ const ES = {
   "exp.2.text":  "Diseñé esquemas relacionales y probé consultas SQL para optimizar la recuperación de datos.",
 
   "portfolio.title": "Proyectos",
-  "project.1.title": "Web Portfolio",
-  "project.1.text":  "HTML5, CSS3, JavaScript",
+  "project.1.title": "App Móvil en App Inventor",
+  "project.1.text": "MIT App Inventor, Programación por Bloques",
   "project.2.title": "Landing Page Template",
   "project.2.text":  "HTML, Flexbox, CSS",
   "project.3.title": "Interactive JavaScript App",
@@ -125,8 +125,8 @@ const EN = {
   "exp.2.text":  "I designed relational schemas and tested SQL queries to optimize data retrieval processes.",
 
   "portfolio.title": "Projects",
-  "project.1.title": "Web Portfolio",
-  "project.1.text":  "HTML5, CSS3, JavaScript",
+  "project.1.title": "Mobile App in App Inventor",
+  "project.1.text": "MIT App Inventor, Block-based Coding",
   "project.2.title": "Landing Page Template",
   "project.2.text":  "HTML, Flexbox, CSS",
   "project.3.title": "Interactive JavaScript App",
