@@ -5,7 +5,7 @@
 
 /* ------------------------------------------------------------
    1. SPANISH TEXTS
-   ------------------------------------------------------------ */
+  ------------------------------------------------------------ */
 const ES = {
   "nav.home":      "INICIO",
   "nav.about":     "SOBRE MÍ",
@@ -74,7 +74,7 @@ const ES = {
 
 /* ------------------------------------------------------------
    2. ENGLISH TEXTS
-   ------------------------------------------------------------ */
+  ------------------------------------------------------------ */
 const EN = {
   "nav.home":      "HOME",
   "nav.about":     "ABOUT",
@@ -110,19 +110,19 @@ const EN = {
   "skill.problem":       "Problem solving",
   "skill.english":       "Technical English",
 
-  "resume.title":      "Education and experience",
+  "resume.title":      "Education and Experience",
   "resume.education":  "Education",
   "resume.experience": "Experience",
 
   "edu.1.title": "Web Programming Professional Technician (Ongoing)",
-  "edu.1.text":  "Web development student passionate about development in Visual Studio Code, with foundations in JavaScript, PHP, networking, and hardware, focused on continuously strengthening technical knowledge and skills.",
+  "edu.1.text":  "Web development student passionate about coding in Visual Studio Code, with foundations in JavaScript, PHP, networking, and hardware, focused on strengthening technical skills every day.",
   "edu.2.title": "Cisco Packet Tracer Course",
-  "edu.2.text":  "I learned basic network simulation, configuration, and connectivity troubleshooting.",
+  "edu.2.text":  "Learned basic network simulation, configuration, and connectivity troubleshooting.",
 
   "exp.1.title": "Frontend Web Project",
-  "exp.1.text":  "I built a responsive landing page using HTML5, CSS3, and JavaScript ensuring compatibility.",
+  "exp.1.text":  "Built a responsive web page using HTML5, CSS3, and JavaScript, ensuring cross-device compatibility.",
   "exp.2.title": "Database Design Assistant",
-  "exp.2.text":  "I designed relational schemas and tested SQL queries to optimize data retrieval processes.",
+  "exp.2.text":  "Designed relational schemas and tested SQL queries to optimize data retrieval processes.",
 
   "portfolio.title": "Projects",
   "project.1.title": "Mobile App in App Inventor",
@@ -133,7 +133,7 @@ const EN = {
   "project.3.text":  "JavaScript, DOM Manipulation",
 
   "contact.title":         "Contact",
-  "contact.intro":         "Feel free to reach out to me through my professional channels for collaboration or opportunities.",
+  "contact.intro":         "Feel free to reach out to me through my professional channels for collaborations or opportunities.",
   "contact.emailLabel":    "Email",
   "contact.linkedinValue": "Professional Profile",
 
@@ -143,7 +143,7 @@ const EN = {
 
 /* ============================================================
    3. LANGUAGE SWITCHER
-   ============================================================ */
+  ------------------------------------------------------------ */
 
 const DICCIONARIOS = { es: ES, en: EN };
 let idiomaActual = "es";
@@ -182,7 +182,7 @@ function cambiarIdioma() {
 
 /* ============================================================
    4. RESPONSIVE MENU
-   ============================================================ */
+  ------------------------------------------------------------ */
 
 let menuVisible = false;
 
@@ -200,7 +200,7 @@ function cerrarMenu() {
 
 /* ============================================================
    5. SKILL BARS
-   ============================================================ */
+  ------------------------------------------------------------ */
 
 function animarHabilidades() {
   const barras = document.querySelectorAll(".progreso");
@@ -232,7 +232,7 @@ function animarHabilidades() {
 
 /* ============================================================
    6. START
-   ============================================================ */
+  ------------------------------------------------------------ */
 
 document.addEventListener("DOMContentLoaded", () => {
   aplicarIdioma("es");
